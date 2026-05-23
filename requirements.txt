@@ -4,3 +4,4 @@ pyautogui
 time
 vidstream
 pyinstaller
+pyfiglet
