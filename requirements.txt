@@ -1,0 +1,6 @@
+socket
+os
+pyautogui
+time
+vidstream
+pyinstaller
