@@ -12,7 +12,6 @@ print(Fore.RED + egik_yazi + Fore.RESET)
 print(Fore.RED + "    Developer: Redkit" + Fore.RESET)
 print(Fore.RED + "    Version:   1v Free")
 
-
 print(Fore.RED + "--------------------------------------------------------------------------------------------" + Fore.RESET)
 
 print("\n\n\n")
