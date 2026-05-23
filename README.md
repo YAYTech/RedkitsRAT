@@ -51,3 +51,22 @@ python listener.py
 
 # 3. Hedefe gönderilecek trojanı oluşturun
 pyinstaller --onefile --noconsole trojan.py
+
+```
+
+
+
+---
+
+
+
+
+## ⚠️ ÖNEMLİ UYARI VE YASAL SORUMLULUK REDDİ (DISCLAIMER)
+
+> **Bu proje yalnızca EĞİTİM ve ARAŞTIRMA amacıyla geliştirilmiştir.**
+
+* **RedkitsRAT**, sistem yöneticilerinin kendi ağlarını test etmesi veya siber güvenlik meraklılarının kötü amaçlı yazılımların çalışma mantığını anlaması (analiz etmesi) için tasarlanmıştır.
+* Bu yazılımın, sahibinin açık izni olmayan herhangi bir bilgisayarda/sistemde kullanılması **YASALARA AYKIRIDIR** ve suç teşkil eder.
+* Yazılımın hatalı kullanımından, yol açabileceği veri kayıplarından veya herhangi bir illegal faaliyetten **geliştirici (yazar) hiçbir şekilde sorumlu tutulamaz.** * Bu projeyi indirerek, inceleyerek veya kullanarak tüm sorumluluğun tamamen kendinize ait olduğunu kabul etmiş sayılırsınız.
+
+**Lütfen siber güvenlik çalışmalarınızı her zaman etik ve yasal sınırlar dahilinde yürütün.**
