@@ -1,3 +1,8 @@
+
+<p align="center">
+  <img src="./assets/logo.png" alt="RedkitsRAT Logo" width="500"/>
+</p>
+
 # 🐀 RedkitsRAT
 
 Bu RAT programının bedava sürümünü güvenle kullanabilirsiniz. Geliştirilmeye devam eden modülleriyle temel uzak yönetim ihtiyaçlarını karşılar.
